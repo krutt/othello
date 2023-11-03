@@ -12,13 +12,13 @@ interface SwapArgs {
 
 export async function swap({ from, to, amountUsd, lnmarkets }: SwapArgs) {
   if (from === 'usd' && to === 'btc') {
-    console.log(`Swapping ${ amountUsd } usd to btc`)
+    console.log(`Swapping ${amountUsd} usd to btc`)
     await swapUsdToBtc({ amountUsd, lnmarkets })
     return
   }
 
   if (from === 'btc' && to === 'usd') {
-    console.log(`Swapping btc for ${ amountUsd } usd`)
+    console.log(`Swapping btc for ${amountUsd} usd`)
     await swapBtcToUsd({ amountUsd, lnmarkets })
     return
   }
