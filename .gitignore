@@ -10,6 +10,7 @@ node_modules
 
 # Environment variables
 .env
+.env.example
 .env.prod
 
 # Log files
