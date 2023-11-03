@@ -1,0 +1,8 @@
+# Icons
+**/*.svg
+
+# Build
+dist
+
+# Static files
+static

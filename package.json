@@ -1,0 +1,61 @@
+{
+  "author": "Sitt Guruvanich <aekazitt+github@gmail.com>",
+  "dependencies": {
+    "@ln-markets/api": "^2.0.0",
+    "bech32": "^2.0.0",
+    "secp256k1": "^4.0.3"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/secp256k1": "^4.0.3",
+    "dotenv": "^16.3.1",
+    "prettier": "^3.0.3",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-node-polyfills": "^0.15.0",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.6"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/othello.js",
+      "require": "./dist/othello.cjs"
+    }
+  },
+  "files": [
+    "dist/**"
+  ],
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "btcEquivalent",
+    "krutt",
+    "kruttfi",
+    "lightning",
+    "lnm",
+    "lnmarkets",
+    "paowow",
+    "satoshi",
+    "satoshis",
+    "sats",
+    "synthetics",
+    "usd",
+    "usdEquivalent",
+    "wow"
+  ],
+  "license": "MIT",
+  "main": "./dist/othello.umd.cjs",
+  "module": "./dist/othello.js",
+  "name": "@krutt/othello",
+  "scripts": {
+    "build": "vite build && tsc --project tsconfig.build.json && tsc-alias",
+    "build:dev": "NODE_ENV=development vite build && tsc --project tsconfig.build.json && tsc-alias",
+    "fmt": "prettier --write .",
+    "test": "vitest"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
