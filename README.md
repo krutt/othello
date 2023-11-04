@@ -2,12 +2,7 @@
 
 [![Othello](https://img.shields.io/badge/License-MIT-brightgreen)](https://github.com/aekasitt/othello/blob/main/LICENSE.md)
 
-<img width='15%' src='static/othello.png' style='border-radius: 1em; box-shadow: 1em 1em 1em #BBB;'>
-<div style='display: inline-block; margin-left: 2em; margin-top: 2em; vertical-align: top;'>
-  Isolated-margin account management for decentralized Bitcoin trading via the Lightning network.
-  <br />
-  Send, receive and hedge your Bitcoin against USD equivalents for self-custodial yield generation.
-</div>
+![Othello Banner](static/othello-banner.png)
 
 # Usage
 
