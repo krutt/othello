@@ -30,7 +30,7 @@ async function fetchNewCookie(secret: string, network: Network, version: Support
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
   })
-  let cookie: string = response.headers.get('set-cookie')
+  let cookie: string | null = response.headers.get('set-cookie')
   if (cookie == null || cookie === '') throw new Error('No cookie returned')
   let { lnurl, k1 } = (await response.json()) as { lnurl: string; k1: string }
   let limit: number = 1023
