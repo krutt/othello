@@ -51,6 +51,7 @@
   "main": "./dist/othello.umd.cjs",
   "module": "./dist/othello.js",
   "name": "@krutt/othello",
+  "private": false,
   "scripts": {
     "build": "vite build && tsc --project tsconfig.build.json && tsc-alias",
     "build:dev": "NODE_ENV=development vite build && tsc --project tsconfig.build.json && tsc-alias",
