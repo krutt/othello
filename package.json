@@ -51,7 +51,6 @@
   "main": "./dist/othello.umd.cjs",
   "module": "./dist/othello.js",
   "name": "@krutt/othello",
-  "private": false,
   "scripts": {
     "build": "vite build && tsc --project tsconfig.build.json && tsc-alias",
     "build:dev": "NODE_ENV=development vite build && tsc --project tsconfig.build.json && tsc-alias",
@@ -60,5 +59,17 @@
   },
   "type": "module",
   "types": "./dist/othello.d.ts",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krutt/othello.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krutt/othello/issues"
+  },
+  "homepage": "https://github.com/krutt/othello#readme"
 }
