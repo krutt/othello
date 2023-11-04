@@ -1,6 +1,8 @@
 # Othello
 
+[![Bitcoin-Only](https://img.shields.io/badge/bitcoin%20only-FF9900)](https://twentyone.world)
 [![License](https://img.shields.io/pypi/l/fastapi-csrf-protect)](LICENSE)
+[![NPM](https://img.shields.io/npm/v/@krutt/othello.svg)](https://npmjs.com/package/@krutt/othello)
 
 ![Othello Banner](static/othello-banner.png)
 
