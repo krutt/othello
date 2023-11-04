@@ -16,7 +16,7 @@
     "outDir": "./dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "target": "ESNext",
     "useDefineForClassFields": true
   },
