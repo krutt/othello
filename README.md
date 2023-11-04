@@ -1,6 +1,6 @@
 # Othello
 
-[![Othello](https://img.shields.io/badge/License-MIT-brightgreen)](https://github.com/aekasitt/othello/blob/main/LICENSE.md)
+[![License](https://img.shields.io/pypi/l/fastapi-csrf-protect)](LICENSE)
 
 ![Othello Banner](static/othello-banner.png)
 
