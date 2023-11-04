@@ -15,6 +15,7 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.3",
     "vite-plugin-node-polyfills": "^0.15.0",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6"
@@ -57,5 +58,6 @@
     "test": "vitest"
   },
   "type": "module",
+  "types": "./dist/othello.d.ts",
   "version": "0.1.0"
 }

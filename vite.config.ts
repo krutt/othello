@@ -2,6 +2,7 @@
 
 // imports
 import { defineConfig } from 'vite'
+import dts from 'vite-plugin-dts'
 import { nodePolyfills } from 'vite-plugin-node-polyfills'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
@@ -19,5 +20,5 @@ export default defineConfig({
     },
     minify: PROD,
   },
-  plugins: [nodePolyfills(), tsconfigPaths()],
+  plugins: [dts({ insertTypesEntry: true }), nodePolyfills(), tsconfigPaths()],
 })
