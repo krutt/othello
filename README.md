@@ -1,8 +1,10 @@
 # Othello
 
-[![Bitcoin-Only](https://img.shields.io/badge/bitcoin%20only-FF9900)](https://twentyone.world)
+[![Bitcoin-only](https://img.shields.io/badge/bitcoin%20only-FF9900)](https://twentyone.world)
+[![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://mempool.space/lightning)
 [![License](https://img.shields.io/pypi/l/fastapi-csrf-protect)](LICENSE)
 [![NPM](https://img.shields.io/npm/v/@krutt/othello.svg)](https://npmjs.com/package/@krutt/othello)
+[![Fork](https://img.shields.io/badge/fork-tao--wallet-beige?logo=github)](https://github.com/dannydeezy/tao-wallet)
 
 ![Othello Banner](static/othello-banner.png)
 
