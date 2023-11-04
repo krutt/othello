@@ -14,8 +14,6 @@ export class Othello {
   lnmarkets: LNMarketsRest | undefined = undefined
 
   constructor({ lnmSecret, network = 'testnet' }: { lnmSecret: string; network?: Network }) {
-    // Currently LnMarkets is the only example custody option. In the future I hope to
-    // have a wide range of options included fully self-custodial options.
     this.lnmSecret = lnmSecret
     this.network = network
   }

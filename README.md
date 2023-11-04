@@ -69,8 +69,16 @@ await othello.send({
 
 ```sh
 # First you may install tsx command using the following command `npm install -g tsx`
-$ tsx example/index.ts
-> 
+$ tsx example/credentials.ts
+>
+```
+
+> **Degen:** "But they're tracking me..."
+> **Othello:** "No they're not, but try this"
+
+```sh
+$ tsx example/incognito.ts
+>
 ```
 
 ## License
