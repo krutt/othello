@@ -3,7 +3,7 @@
 [![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
 [![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://mempool.space/lightning)
 [![NPM](https://img.shields.io/npm/v/@krutt/othello.svg?logo=npm)](https://npmjs.com/package/@krutt/othello)
-[![Fork](https://img.shields.io/badge/fork-tao--wallet-beige?logo=github)](https://github.com/dannydeezy/tao-wallet)
+[![Fork](https://img.shields.io/badge/fork-dannydeezy/tao--wallet-beige?logo=github)](https://github.com/dannydeezy/tao-wallet)
 [![License](https://img.shields.io/pypi/l/fastapi-csrf-protect)](LICENSE)
 
 ![Othello Banner](static/othello-banner.png)
