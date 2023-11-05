@@ -18,8 +18,9 @@ beforeAll(() => {
 
 describe('Register an incognito account via lnURL', () => {
   it('Creates a testnet account on LNMarkets.com', async () => {
+    expect(typeof othello).toBe('undefined')
     othello = new Othello({ lnmSecret, network })
-    expect(typeof othello !== 'undefined')
+    expect(typeof othello).toBe('object')
   })
 })
 
