@@ -27,8 +27,8 @@ async function fetchNewCookie(secret: string, network: Network, version: Support
   let host: string = `${network !== 'testnet' ? 'api' : 'api.testnet'}.lnmarkets.com/${version}`
   let endpoint: string = `https://${host}/lnurl/auth`
   let response: Response = await fetch(endpoint, {
-    method: 'POST',
     headers: { 'Content-Type': 'application/json' },
+    method: 'POST',
   })
   let cookie: string | null = response.headers.get('set-cookie')
   if (cookie == null || cookie === '') throw new Error('No cookie returned')
@@ -53,6 +53,7 @@ async function fetchNewCookie(secret: string, network: Network, version: Support
   endpoint = `https://${host}/lnurl/auth?${params.toString()}`
   response = await fetch(endpoint, { headers: { Cookie: cookie }, method: 'POST' })
   if (!response.ok) throw new Error('Login failed')
+  lnurl = (await response.json()).lnurl
   return cookie
 }
 

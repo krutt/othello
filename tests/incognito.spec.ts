@@ -13,7 +13,7 @@ let othello: Othello
 
 beforeAll(() => {
   lnmSecret = randomBytes(16).toString('hex')
-  network = 'mainnet'  // test on production
+  network = 'mainnet' // test on production
 })
 
 describe('Register an incognito account via lnURL', () => {

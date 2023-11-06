@@ -7,7 +7,6 @@ import { DepositResult } from '@/types/DepositResult'
 import { FuturesCloseTradeResult } from '@/types/FuturesCloseTradeResult'
 import { FuturesGetTradesParams } from '@/types/FuturesGetTradesParams'
 import { FuturesGetTradesResult } from '@/types/FuturesGetTradesResult'
-import { FuturesGetTickerParams } from '@/types/FuturesGetTickerParams'
 import { FuturesNewTradeParams } from '@/types/FuturesNewTradeParams'
 import { FuturesNewTradeResult } from '@/types/FuturesNewTradeResult'
 // import { LNMarketsOptions } from '@/types/LNMarketsOptions'
@@ -30,7 +29,7 @@ export interface LNMarketsRest {
 
   // constructor(options: LNMarketsOptions)
   futuresCloseTrade(id: string): Promise<FuturesCloseTradeResult>
-  futuresGetTicker(params?: FuturesGetTickerParams): Promise<Ticker>
+  futuresGetTicker(): Promise<Ticker>
   futuresGetTrades(params?: FuturesGetTradesParams): Promise<FuturesGetTradesResult>
   futuresNewTrade(params?: FuturesNewTradeParams): Promise<FuturesNewTradeResult>
   userDeposit(params: DepositParams): Promise<DepositResult>
