@@ -68,4 +68,4 @@ export interface UserInfo {
 //   }
 // }
 
-// export default UserInfo
+export default UserInfo
