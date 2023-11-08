@@ -34,7 +34,7 @@ export class Othello {
     amountSats,
   }: {
     type: 'bolt11' | 'on-chain'
-    amountSats: number
+    amountSats: number | null
   }) {
     if (!this.lnmarkets) {
       throw new Error('login() needs to be called first')
