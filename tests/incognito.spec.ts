@@ -67,7 +67,7 @@ describe('Fetches on-chain deposit address from LNMarkets.com', () => {
 
 describe('Fetches lightning invoice from LNMarkets.com', () => {
   it('Retrieves testnet bolt11 deposit invoice', async () => {
-    let bolt11: string = await othello.fetchDepositAddress({type: 'bolt11', amountSats: 1})
+    let bolt11: string = await othello.fetchDepositAddress({type: 'bolt11', amountSats: 1}) // TODO: fuzz amountSats above zero
     expect(bolt11).toBeTruthy()
     expect(bolt11).toBeTypeOf('string')
     expect(bolt11.length).toBe(343)
@@ -76,6 +76,16 @@ describe('Fetches lightning invoice from LNMarkets.com', () => {
 })
 
 describe('Fetches invalid lightning invoices from LNMarket.com', () => {
+
+  it('Attempts to retrieve testnet on-chain deposit address with non-null amountSats', async () => {
+    await othello.fetchDepositAddress({type: 'on-chain', amountSats: 1}) // TODO: fuzz amountSats above zero
+      .catch(err => {
+        expect(err.message).toBeTruthy()
+        expect(err.message).toBeTypeOf('string')
+        expect(err.message.length).toBeGreaterThan(0)
+        expect(err.message).toBe('cannot set amountSats for on-chain deposit')
+      })
+  })
 
   it('Attempts to retrieve testnet bolt11 deposit address with zero-amount', async () => {
     await othello.fetchDepositAddress({type: 'bolt11', amountSats: 0})
