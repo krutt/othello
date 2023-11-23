@@ -6,7 +6,7 @@
 [![Fork](https://img.shields.io/badge/fork-dannydeezy/tao--wallet-beige?logo=github)](https://github.com/dannydeezy/tao-wallet)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![Othello Banner](static/othello-banner.png)
+![Othello banner](static/othello-banner.svg)
 
 # Usage
 

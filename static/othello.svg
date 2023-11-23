@@ -8,193 +8,197 @@
   width='800px'
   >
   <defs>
-    <g id="swirl" fill="none" stroke-linecap="round">
-      <circle r="363" cx="400" cy="400" stroke-width="8" stroke-dasharray="1939 2281" transform="rotate(360, 400, 400)" opacity="0.10"/>
-      <circle r="346.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="1762 2177" transform="rotate(343, 400, 400)" opacity="0.18"/>
-      <circle r="330" cx="400" cy="400" stroke-width="8" stroke-dasharray="1595 2073" transform="rotate(326, 400, 400)" opacity="0.26"/>
-      <circle r="313.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="1435 1970" transform="rotate(309, 400, 400)" opacity="0.34"/>
-      <circle r="297" cx="400" cy="400" stroke-width="8" stroke-dasharray="1284 1866" transform="rotate(291, 400, 400)" opacity="0.42"/>
-      <circle r="280.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="1141 1762" transform="rotate(274, 400, 400)" opacity="0.50"/>
-      <circle r="264" cx="400" cy="400" stroke-width="8" stroke-dasharray="1007 1659" transform="rotate(257, 400, 400)" opacity="0.58"/>
-      <circle r="247.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="881 1555" transform="rotate(240, 400, 400)" opacity="0.66"/>
-      <circle r="231" cx="400" cy="400" stroke-width="8" stroke-dasharray="764 1451" transform="rotate(223, 400, 400)" opacity="0.74"/>
-      <circle r="214.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="655 1348" transform="rotate(206, 400, 400)" opacity="0.82"/>
-      <circle r="198" cx="400" cy="400" stroke-width="8" stroke-dasharray="554 1244" transform="rotate(189, 400, 400)" opacity="0.86"/>
-      <circle r="181.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="462 1140" transform="rotate(171, 400, 400)" opacity="0.90"/>
-      <circle r="165" cx="400" cy="400" stroke-width="8" stroke-dasharray="378 1037" transform="rotate(154, 400, 400)" opacity="0.94"/>
-      <circle r="148.5" cx="400" cy="400" stroke-width="8" stroke-dasharray="302 933" transform="rotate(137, 400, 400)" opacity="0.98"/>
-      <circle r="132" cx="400" cy="400" stroke-width="8" stroke-dasharray="235 829" transform="rotate(120, 400, 400)" />
+    <g id='swirl'
+      fill='none'
+      stroke-linecap='round'
+      stroke-width='8'
+      >
+      <circle r='363' cx='400' cy='400' stroke-dasharray='1939 2281' transform='rotate(360, 400, 400)' opacity='0.10'></circle>
+      <circle r='346.5' cx='400' cy='400' stroke-dasharray='1762 2177' transform='rotate(343, 400, 400)' opacity='0.18'></circle>
+      <circle r='330' cx='400' cy='400' stroke-dasharray='1595 2073' transform='rotate(326, 400, 400)' opacity='0.26'></circle>
+      <circle r='313.5' cx='400' cy='400' stroke-dasharray='1435 1970' transform='rotate(309, 400, 400)' opacity='0.34'></circle>
+      <circle r='297' cx='400' cy='400' stroke-dasharray='1284 1866' transform='rotate(291, 400, 400)' opacity='0.42'></circle>
+      <circle r='280.5' cx='400' cy='400' stroke-dasharray='1141 1762' transform='rotate(274, 400, 400)' opacity='0.50'></circle>
+      <circle r='264' cx='400' cy='400' stroke-dasharray='1007 1659' transform='rotate(257, 400, 400)' opacity='0.58'></circle>
+      <circle r='247.5' cx='400' cy='400' stroke-dasharray='881 1555' transform='rotate(240, 400, 400)' opacity='0.66'></circle>
+      <circle r='231' cx='400' cy='400' stroke-dasharray='764 1451' transform='rotate(223, 400, 400)' opacity='0.74'></circle>
+      <circle r='214.5' cx='400' cy='400' stroke-dasharray='655 1348' transform='rotate(206, 400, 400)' opacity='0.82'></circle>
+      <circle r='198' cx='400' cy='400' stroke-dasharray='554 1244' transform='rotate(189, 400, 400)' opacity='0.86'></circle>
+      <circle r='181.5' cx='400' cy='400' stroke-dasharray='462 1140' transform='rotate(171, 400, 400)' opacity='0.90'></circle>
+      <circle r='165' cx='400' cy='400' stroke-dasharray='378 1037' transform='rotate(154, 400, 400)' opacity='0.94'></circle>
+      <circle r='148.5' cx='400' cy='400' stroke-dasharray='302 933' transform='rotate(137, 400, 400)' opacity='0.98'></circle>
+      <circle r='132' cx='400' cy='400' stroke-dasharray='235 829' transform='rotate(120, 400, 400)' ></circle>
     </g>
     <filter id="blurry" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="30" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"/>
+      <feGaussianBlur stdDeviation="30" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur>
     </filter>
     <radialGradient id="shady" r="75%" cx="20%" cy="20%">
-      <stop offset="0%" stop-color="#FF9900" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#D77B00" stop-opacity="1"/>
+      <stop offset="0%" stop-color="#FF9900" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#D77B00" stop-opacity="1"></stop>
     </radialGradient>
     <radialGradient id="glare" r="25%" cx="30%" cy="30%">
-      <stop offset="0%" stop-color="#FFA847" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#FF9900" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFA847" stop-opacity="0.75"></stop>
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0"></stop>
     </radialGradient>
   </defs>
-  <rect fill="hsl(126, 75%, 55%)" height="100%" x="0%" y="0%" width="100%"/>
+  <rect fill="hsl(126, 75%, 55%)" height="100%" x="0%" y="0%" width="100%"></rect>
   <g id="board">
-    <circle r="40" cx="0" cy="0" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="80" fill="hsl(145, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="160" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="240" fill="hsl(158, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="320" fill="hsl(123, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="400" fill="hsl(104, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="480" fill="hsl(111, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="560" fill="hsl(88, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="640" fill="hsl(96, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="720" fill="hsl(84, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="800" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="0" cy="880" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="0" fill="hsl(87, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="80" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="160" fill="hsl(88, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="240" fill="hsl(110, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="320" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="400" fill="hsl(75, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="480" fill="hsl(108, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="560" fill="hsl(137, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="640" fill="hsl(128, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="720" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="800" fill="hsl(124, 85%, 40%)"/>
-    <circle r="40" cx="80" cy="880" fill="hsl(124, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="0" fill="hsl(157, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="80" fill="hsl(150, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="160" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="240" fill="hsl(92, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="320" fill="hsl(157, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="400" fill="hsl(122, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="480" fill="hsl(88, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="560" fill="hsl(122, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="640" fill="hsl(132, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="720" fill="hsl(143, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="800" fill="hsl(129, 85%, 40%)"/>
-    <circle r="40" cx="160" cy="880" fill="hsl(129, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="0" fill="hsl(131, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="80" fill="hsl(147, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="160" fill="hsl(150, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="240" fill="hsl(100, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="320" fill="hsl(88, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="400" fill="hsl(95, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="480" fill="hsl(80, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="560" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="640" fill="hsl(111, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="720" fill="hsl(87, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="800" fill="hsl(100, 85%, 40%)"/>
-    <circle r="40" cx="240" cy="880" fill="hsl(100, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="0" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="80" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="160" fill="hsl(160, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="240" fill="hsl(123, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="320" fill="hsl(123, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="400" fill="hsl(114, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="480" fill="hsl(125, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="560" fill="hsl(160, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="640" fill="hsl(125, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="720" fill="hsl(94, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="800" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="320" cy="880" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="0" fill="hsl(92, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="80" fill="hsl(75, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="160" fill="hsl(124, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="240" fill="hsl(117, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="320" fill="hsl(130, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="400" fill="hsl(82, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="480" fill="hsl(96, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="560" fill="hsl(139, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="640" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="720" fill="hsl(84, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="800" fill="hsl(138, 85%, 40%)"/>
-    <circle r="40" cx="400" cy="880" fill="hsl(138, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="0" fill="hsl(137, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="80" fill="hsl(116, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="160" fill="hsl(123, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="240" fill="hsl(101, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="320" fill="hsl(71, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="400" fill="hsl(93, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="480" fill="hsl(146, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="560" fill="hsl(149, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="640" fill="hsl(128, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="720" fill="hsl(94, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="800" fill="hsl(87, 85%, 40%)"/>
-    <circle r="40" cx="480" cy="880" fill="hsl(87, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="0" fill="hsl(149, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="80" fill="hsl(100, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="160" fill="hsl(125, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="240" fill="hsl(154, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="320" fill="hsl(104, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="400" fill="hsl(118, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="480" fill="hsl(147, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="560" fill="hsl(164, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="640" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="720" fill="hsl(111, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="800" fill="hsl(119, 85%, 40%)"/>
-    <circle r="40" cx="560" cy="880" fill="hsl(119, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="0" fill="hsl(104, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="80" fill="hsl(77, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="160" fill="hsl(130, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="240" fill="hsl(147, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="320" fill="hsl(93, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="400" fill="hsl(111, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="480" fill="hsl(147, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="560" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="640" fill="hsl(74, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="720" fill="hsl(98, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="800" fill="hsl(129, 85%, 40%)"/>
-    <circle r="40" cx="640" cy="880" fill="hsl(129, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="0" fill="hsl(106, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="80" fill="hsl(97, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="160" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="240" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="320" fill="hsl(98, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="400" fill="hsl(112, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="480" fill="hsl(143, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="560" fill="hsl(133, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="640" fill="hsl(109, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="720" fill="hsl(114, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="800" fill="hsl(72, 85%, 40%)"/>
-    <circle r="40" cx="720" cy="880" fill="hsl(72, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="0" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="80" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="160" fill="hsl(90, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="240" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="320" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="400" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="480" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="560" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="640" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="720" fill="hsl(158, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="800" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="800" cy="880" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="0" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="80" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="160" fill="hsl(90, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="240" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="320" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="400" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="480" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="560" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="640" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="720" fill="hsl(158, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="800" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="880" cy="880" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="0" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="80" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="160" fill="hsl(90, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="240" fill="hsl(86, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="320" fill="hsl(103, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="400" fill="hsl(127, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="480" fill="hsl(126, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="560" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="640" fill="hsl(134, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="720" fill="hsl(158, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="800" fill="hsl(115, 85%, 40%)"/>
-    <circle r="40" cx="960" cy="880" fill="hsl(115, 85%, 40%)"/>
+    <circle r="40" cx="0" cy="0" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="80" fill="hsl(145, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="160" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="240" fill="hsl(158, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="320" fill="hsl(123, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="400" fill="hsl(104, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="480" fill="hsl(111, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="560" fill="hsl(88, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="640" fill="hsl(96, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="720" fill="hsl(84, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="800" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="0" cy="880" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="0" fill="hsl(87, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="80" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="160" fill="hsl(88, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="240" fill="hsl(110, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="320" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="400" fill="hsl(75, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="480" fill="hsl(108, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="560" fill="hsl(137, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="640" fill="hsl(128, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="720" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="800" fill="hsl(124, 85%, 40%)"></circle>
+    <circle r="40" cx="80" cy="880" fill="hsl(124, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="0" fill="hsl(157, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="80" fill="hsl(150, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="160" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="240" fill="hsl(92, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="320" fill="hsl(157, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="400" fill="hsl(122, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="480" fill="hsl(88, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="560" fill="hsl(122, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="640" fill="hsl(132, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="720" fill="hsl(143, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="800" fill="hsl(129, 85%, 40%)"></circle>
+    <circle r="40" cx="160" cy="880" fill="hsl(129, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="0" fill="hsl(131, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="80" fill="hsl(147, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="160" fill="hsl(150, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="240" fill="hsl(100, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="320" fill="hsl(88, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="400" fill="hsl(95, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="480" fill="hsl(80, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="560" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="640" fill="hsl(111, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="720" fill="hsl(87, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="800" fill="hsl(100, 85%, 40%)"></circle>
+    <circle r="40" cx="240" cy="880" fill="hsl(100, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="0" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="80" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="160" fill="hsl(160, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="240" fill="hsl(123, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="320" fill="hsl(123, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="400" fill="hsl(114, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="480" fill="hsl(125, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="560" fill="hsl(160, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="640" fill="hsl(125, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="720" fill="hsl(94, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="800" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="320" cy="880" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="0" fill="hsl(92, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="80" fill="hsl(75, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="160" fill="hsl(124, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="240" fill="hsl(117, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="320" fill="hsl(130, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="400" fill="hsl(82, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="480" fill="hsl(96, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="560" fill="hsl(139, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="640" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="720" fill="hsl(84, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="800" fill="hsl(138, 85%, 40%)"></circle>
+    <circle r="40" cx="400" cy="880" fill="hsl(138, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="0" fill="hsl(137, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="80" fill="hsl(116, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="160" fill="hsl(123, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="240" fill="hsl(101, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="320" fill="hsl(71, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="400" fill="hsl(93, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="480" fill="hsl(146, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="560" fill="hsl(149, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="640" fill="hsl(128, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="720" fill="hsl(94, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="800" fill="hsl(87, 85%, 40%)"></circle>
+    <circle r="40" cx="480" cy="880" fill="hsl(87, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="0" fill="hsl(149, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="80" fill="hsl(100, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="160" fill="hsl(125, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="240" fill="hsl(154, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="320" fill="hsl(104, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="400" fill="hsl(118, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="480" fill="hsl(147, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="560" fill="hsl(164, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="640" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="720" fill="hsl(111, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="800" fill="hsl(119, 85%, 40%)"></circle>
+    <circle r="40" cx="560" cy="880" fill="hsl(119, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="0" fill="hsl(104, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="80" fill="hsl(77, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="160" fill="hsl(130, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="240" fill="hsl(147, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="320" fill="hsl(93, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="400" fill="hsl(111, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="480" fill="hsl(147, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="560" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="640" fill="hsl(74, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="720" fill="hsl(98, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="800" fill="hsl(129, 85%, 40%)"></circle>
+    <circle r="40" cx="640" cy="880" fill="hsl(129, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="0" fill="hsl(106, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="80" fill="hsl(97, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="160" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="240" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="320" fill="hsl(98, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="400" fill="hsl(112, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="480" fill="hsl(143, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="560" fill="hsl(133, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="640" fill="hsl(109, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="720" fill="hsl(114, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="800" fill="hsl(72, 85%, 40%)"></circle>
+    <circle r="40" cx="720" cy="880" fill="hsl(72, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="0" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="80" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="160" fill="hsl(90, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="240" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="320" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="400" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="480" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="560" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="640" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="720" fill="hsl(158, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="800" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="800" cy="880" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="0" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="80" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="160" fill="hsl(90, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="240" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="320" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="400" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="480" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="560" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="640" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="720" fill="hsl(158, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="800" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="880" cy="880" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="0" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="80" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="160" fill="hsl(90, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="240" fill="hsl(86, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="320" fill="hsl(103, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="400" fill="hsl(127, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="480" fill="hsl(126, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="560" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="640" fill="hsl(134, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="720" fill="hsl(158, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="800" fill="hsl(115, 85%, 40%)"></circle>
+    <circle r="40" cx="960" cy="880" fill="hsl(115, 85%, 40%)"></circle>
   </g>
   <use
     href="#board"
@@ -203,14 +207,43 @@
       translate(0 30.5)
     "
     />
-  <use href="#swirl" stroke="black" />
-  <use href="#swirl" stroke="white" transform="rotate(180 400 400)" />
+  <use href='#swirl' stroke="black"/>
+  <use href='#swirl' stroke="white" transform='rotate(180 400 400)'/>
   <g id='disc'>
-    <ellipse rx="120" ry="75" cx="450" cy="500" fill="#8F3E00" opacity="0.25" filter="url(#blurry)"
-      />
-    <circle r="120" cx="400" cy="400" fill="#FF9900"/>
-    <circle r="120" cx="400" cy="400" fill="url(#shady)"/>
-    <circle r="120" cx="400" cy="400" fill="url(#glare)"/>
+    <ellipse
+      cx='450'
+      cy='500'
+      fill="#8F3E00"
+      filter='url(#blurry)'
+      opacity='0.25'
+      rx='120'
+      ry='75'
+      >
+    </ellipse>
+    <circle
+      cx='400'
+      cy='400'
+      fill="#FF9900"
+      r='120'
+      >
+    </circle>
+    <circle
+      cx='400'
+      cy='400'
+      fill='url(#shady)'
+      r='120'
+      >
+    </circle>
+    <circle
+      cx='400'
+      cy='400'
+      fill='url(#glare)'
+      r='120'
+      >
+    </circle>
   </g>
-  <use href='#disc' transform='scale(0.8) rotate(180 400 400) translate(-100 -100)'/>
+  <use
+    href='#disc'
+    transform='scale(0.8) rotate(180 400 400) translate(-100 -100)'
+    />
 </svg>
