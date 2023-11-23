@@ -27,13 +27,13 @@
         in='offOut'
         result='matrixOut'
         type='matrix'
-        values='0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.4 0'
+        values='0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.8 0'
         >
       </feColorMatrix>
       <feGaussianBlur
         in='matrixOut'
         result='blurOut'
-        stdDeviation='8'
+        stdDeviation='6'
         >
       </feGaussianBlur>
       <feBlend
